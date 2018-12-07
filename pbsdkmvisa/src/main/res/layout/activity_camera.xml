@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="money.paybox.pbsdkmvisa.ui.CameraActivity">
+
+
+    <money.paybox.pbsdkmvisa.utils.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <money.paybox.pbsdkmvisa.utils.GraphicOverlay
+            android:id="@+id/graphicOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </money.paybox.pbsdkmvisa.utils.CameraSourcePreview>
+    <ImageButton
+        android:id="@+id/flashView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flash_selector"
+        android:background="@drawable/flash_background"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:text=""
+        android:textOff=""
+        android:textOn=""/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b9848484"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="#fff"
+            android:text="@string/camera_on_qr"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/cameraError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/transparent"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_above="@+id/descriptionLayout"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:text="@string/qr_not_valid"/>
+    <LinearLayout
+        android:id="@+id/descriptionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b9848484"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pbsdkmvisa</string>
+    <string name="camera_on_qr">Наведите камеру на QR-код</string>
+    <string name="qr_not_valid">Некорректный QR-код</string>
+    <string name="camera_not_permited">Нет доступа к камере!</string>
+    <string name="camera_not_permited_message">Разрешите доступ к камере в настройках телефона</string>
+</resources>
