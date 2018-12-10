@@ -38,6 +38,7 @@ public class ConfirmFragment extends Fragment {
     public void setData(ArrayList<Card> cards, MVisa mVisa){
         this.cards = cards;
         this.mVisa = mVisa;
+
     }
 
     @Override

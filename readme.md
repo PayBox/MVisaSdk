@@ -1,7 +1,7 @@
 **PayBoxMvisa SDK (Android)**
 
 
-PayBox SDK Android - это библиотека позволяющая проводить оплату Mvisa через API PayBox. 
+PayBoxMvisa SDK Android - это библиотека позволяющая проводить оплату Mvisa через API PayBox. 
 Библиотека работает совместно с [SDK_Android_input](https://github.com/PayBox/SDK_Android_input)
 
 
