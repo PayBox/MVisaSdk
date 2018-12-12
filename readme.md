@@ -19,7 +19,7 @@ repositories {
 ```
 dependencies {
     implementation 'com.github.PayBox:MVisaSdk:0.9.2@aar'
-    implementation 'com.github.PayBox:SDK_Android_input:1.0.3.3@aar'
+    implementation 'com.github.PayBox:SDK_Android_input:1.0.3.4@aar'
     implementation 'com.google.android.gms:play-services-vision:17.0.2'
 }
 ```
